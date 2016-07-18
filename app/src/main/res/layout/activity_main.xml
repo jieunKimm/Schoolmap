@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.android.schoolmap.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dankooklogo"
+        android:scaleType="center"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:text="Campus Site"
+        android:id="@+id/campussite"
+        android:onClick="campus"
+        style="@style/mainPageButton" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="the way"
+        android:id="@+id/way"
+        android:onClick="way"
+        style="@style/mainPageButton" />
+
+    <Button
+        android:text="Shuttle bus"
+        style="@style/mainPageButton"
+        android:onClick="bus"
+        android:id="@+id/bus"/>
+
+    <Button
+        android:text="Campus map"
+        android:id="@+id/map"
+        android:onClick="showmap"
+        style="@style/mainPageButton"/>
+</LinearLayout>
